@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilos del encabezado */
+header {
+    background-image: url(/img/pexels-big-bear-vacations-3030757.jpg);
+    background-position: center;
+    background-size: fill;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .container .kid__reading{
+    width: 250px;
+    position: absolute;
+    right: 30px;
+    top: calc(50% - 160px);
+
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding-top: 20px;
+}
+
+#languages,
+#find-partner {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #007bff;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label,
+form select,
+form button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(175, 9, 42);
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #1c1d1e;
+    color: #fff;
+}
